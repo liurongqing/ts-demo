@@ -15,9 +15,9 @@ const logUser = (prop: string) => {
   console.log(prop)
 }
 
-logUserList({
-  id: 'id1',
-  username: 'name1',
-  followers: 1,
-  isBlocked: 2,
-})
+// logUserList({
+//   id: 'id1',
+//   username: 'name1',
+//   followers: 1,
+//   isBlocked: 2,
+// })
