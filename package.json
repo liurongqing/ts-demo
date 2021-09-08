@@ -1,0 +1,23 @@
+{
+  "name": "ts-demo",
+  "version": "1.0.0",
+  "description": "ts 笔记",
+  "main": "index.js",
+  "scripts": {
+    "start": "esbuild src/app.ts --bundle --servedir=www --outdir=www/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liurongqing/ts-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liurongqing/ts-demo/issues"
+  },
+  "homepage": "https://github.com/liurongqing/ts-demo#readme",
+  "dependencies": {
+    "esbuild": "^0.12.25"
+  }
+}
